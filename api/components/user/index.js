@@ -1,5 +1,5 @@
 // api/components/user/index
-const store = require('../../../store/dummy')
-const ctrl = require('./controller')
+const store = require('../../../store/dummy');
+const ctrl = require('./controller');
 
-module.exports = ctrl(store)
+module.exports = ctrl(store);
